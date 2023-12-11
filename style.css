@@ -1,0 +1,21 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+
+}
+
+canvas{
+    position: absolute;
+}
+
+#canvas_player{
+    
+}
+
+#canvas_objects{
+    background-color: rgb(50, 50, 50);
+}

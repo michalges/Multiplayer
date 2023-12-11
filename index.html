@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <title>Ok</title>
+    <link rel="stylesheet" href="style.css">
+    
+</head>
+<body>
+    <canvas id="canvas_objects"></canvas>
+    <canvas id="canvas_player"></canvas>
+    
+    <script>
+        const canvas_player = document.getElementById("canvas_player");
+        const ctx_pl = canvas_player.getContext("2d");
+
+        let canvas_width = 500;
+        let canvas_height = 600;
+
+        canvas_player.width = canvas_width;
+        canvas_player.height = canvas_height;
+        canvas_player.style.width = canvas_width + "px";
+        canvas_player.style.height = canvas_height + "px";
+
+        const canvas_objects = document.getElementById("canvas_objects");
+        const ctx_obj = canvas_objects.getContext("2d");
+
+        canvas_objects.width = canvas_width;
+        canvas_objects.height = canvas_height;
+        canvas_objects.style.width = canvas_width + "px";
+        canvas_objects.style.height = canvas_height + "px";
+    </script>
+    <script src="script.js" type="module"></script>
+</body>
+</html>
